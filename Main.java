@@ -11,7 +11,7 @@ class Main {
     static int countChar = 0;
     
     public static void main(String[] args) {
-        File file = new File("C:\\Users\\Tarushi\\Desktop\\docs.txt");
+        File file = new File(".\\docs.txt");    //Path to file.
         String text = "";
         try {
             Scanner sc = new Scanner(file);
